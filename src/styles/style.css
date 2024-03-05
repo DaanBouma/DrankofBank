@@ -1,0 +1,473 @@
+/*============================================================*/
+/*                        Default                             */
+/* ===========================================================*/
+body,
+html {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/*============================================================*/
+/*                        Pages                               */
+/* ===========================================================*/
+
+#pages {
+    height: 100vh;
+    width: 1200vw;
+    display: flex;
+}
+
+#totalPages {
+    height: 200vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    z-index: 100000;
+    position: absolute;
+}
+
+#page1 {
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+
+    background: url(../img/Image1Page1.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    align-items: flex-end;
+}
+
+#page2 {
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    background: url(../img/Weg.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    align-items: flex-end;
+
+}
+
+#page3 {
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    background: url(../img/background.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+
+}
+
+#page4 {
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    background: url(../img/Image3Page3.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    align-items: flex-end;
+}
+
+#page5 {
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    background: url(../img/Weg.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    align-items: flex-end;
+
+}
+
+#page6 {
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    background: url(../img/bank.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    align-items: flex-end;
+
+}
+#page7 {
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    background: url(../img/Image1Page1.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    align-items: flex-end;
+
+}
+#page8 {
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    background: url(../img/Weg.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    align-items: flex-end;
+
+}
+#page9 {
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    background: url(../img/bank.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    align-items: flex-end;
+}
+#page10 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #4274B9;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+#page11 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #4274B9;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+#page5_Before {
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    background: url(../img/Weg.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    align-items: flex-end;
+}
+/*============================================================*/
+/*                        Buttons                             */
+/* ===========================================================*/
+
+#totalButtons {
+    /* width: 100vw; */
+    height: 100vh;
+    position: absolute;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+#left-side {
+    height: 100vh;
+    width: 11.5vw;
+    position: absolute;
+    left: 0;
+    transition: 0.5s;
+    opacity: 0;
+    display: flex;
+    z-index: 100000000;
+}
+
+#right-side {
+    height: 100vh;
+    width: 11.5vw;
+    position: absolute;
+    right: 0;
+    transition: 0.5s;
+    display: flex;
+    z-index: 100000000;
+}
+
+.buttonRight {
+    width: 150px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.buttonLeft {
+    width: 150px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.buttons {
+    background-color: transparent;
+    border: none;
+}
+
+
+#PageWallpaper {
+    width: 100vw;
+    height: auto;
+    position: absolute;
+
+}
+#buttonsquare {
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    position: absolute;
+}
+
+/* ========================= */
+/*          Cloud            */
+/* ========================= */
+
+
+.cloud {
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+.cloudimage {
+    width: 800px;
+}
+
+#top-icons {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: flex-start;
+    z-index: 1000000000000;
+}
+
+.top-icons-small {
+    width: 50px;
+}
+
+
+#mutebutton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+}
+#homebutton {
+    background-color: transparent;
+    border: none;
+}
+
+
+
+.cloudcontent {
+    position: absolute;
+    z-index: 1000000000;
+    margin-left: 20px;
+    font-size: 20px;
+    color: black;
+    width: 450px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin-bottom: 10%;
+}
+
+#cloudbutton1 {
+    background-color: transparent;
+    border: none;
+    transform: scale(1.2);
+    margin-bottom: 10px;
+    cursor: pointer;
+    z-index: 1000000000000;
+    transition: 0.5s;
+}
+#cloudbutton1:active {
+    margin-bottom: 15px;
+}
+#cloudbutton2 {
+    background-color: transparent;
+    border: none;
+    transform: scale(1.2);
+    margin-bottom: 10px;
+    cursor: pointer;
+    z-index: 1000000000000;
+    transition: 0.5s;
+}
+#cloudbutton2:active {
+    margin-bottom: 15px;
+}
+
+#cloudbutton2 {
+    background-color: transparent;
+    border: none;
+    transform: scale(1.2);
+    margin-bottom: 10px;
+    cursor: pointer;
+    z-index: 1000000000000;
+    transition: 0.5s;
+    display: none;
+}
+#cloudbutton1:active {
+    margin-bottom: 15px;
+}
+
+#muteButton {
+    background-color: transparent;
+    border: none;
+}
+#onButton {
+    display: block;
+    cursor: pointer;
+}
+#ofButton {
+    display: none;
+    cursor: pointer;
+    
+}
+
+/* ========================= */
+/*          Options          */
+/* ========================= */
+
+#options {
+width: 100vw;
+height: 100vh;
+margin: 0;
+padding: 0;
+display: flex;
+position: absolute;
+z-index: 10001;
+}
+#OptionLeft, #OptionRight {
+    background-color: transparent;
+    border: none;
+    height: 100vh;
+    width: 50vw;
+    margin: 0;
+    padding: 0;
+}
+#OptionLeftImg, #OptionRightImg {
+    height: 100vh;
+    width: 50vw;
+    margin: 0;
+    padding: 0;
+}
+#textPage3 {
+    position: absolute;
+    z-index: 10002;
+    width: 100vw;
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#textpage3IMG {
+    height: 75px;
+}
+
+
+#bigSquare {
+    width: 800px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#TopText {
+    width: 800px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#BotButtons {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.buttonstyle {
+    background-color: transparent;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.buttonstyle:hover {
+    transform: scale(1.1);
+}
+.buttonstyle:active {
+    transform: scale(0.2);
+}
+.titeltoptext {
+    height: 50px;
+    transition: 0.5s;
+}
+.titeltoptext:hover {
+    transform: scale(1.1);
+}
+.drankpath {
+    display: flex;
+}
+
+.imageCredits {
+    transition: 0.5s;
+}
+.imageCredits:hover {
+    transform: scale(1.1);
+}

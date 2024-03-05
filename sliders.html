@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sliders</title>
+
+    <link rel="stylesheet" href="src/styles/style.css">
+</head>
+
+<body>
+    <div id="top-icons">
+        <button id="homebutton">
+            <a href="home.html">
+                <img class="top-icons-small" src="src/img/homebutton.png" alt="">
+            </a>
+        </button>
+        <button id="muteButton" onclick="mute()">
+            <img class="top-icons-small" id="onButton" src="src/img/mutebutton.png" alt="">
+            <img class="top-icons-small" id="ofButton" src="src/img/mutebutton2.png" alt="">
+        </button>
+    </div>
+    <section id="buttonsquare">
+        <section id="left-side">
+            <button onclick="previousButton()" class="buttons">
+                <img class="buttonLeft" src="src/img/PreviousArrowWhite.png" alt="">
+            </button>
+        </section>
+        <section id="right-side">
+            <button onclick="nextButton()" class="buttons">
+                <img class="buttonRight" src="src/img/NextArrowWhite.png" alt="">
+            </button>
+        </section>
+    </section>
+
+    <section id="totalPages">
+        <section id="pages">
+
+            <!-- ---------------------------------------------------------------------------------- -->
+            <section id="page1">
+                <button onclick="skip()" id="cloudbutton1">
+                    <div class="cloud">
+                        <p id="cloudText1" class="cloudcontent"></p>
+                        <img class="cloudimage " src="/src/img/textcloud1.png" alt="">
+                    </div>
+                </button>
+            </section>
+            <!-- ---------------------------------------------------------------------------------- -->
+            <section id="page2">
+                <button onclick="skip()" id="cloudbutton1">
+                    <div class="cloud">
+                        <p id="cloudText2" class="cloudcontent"></p>
+                        <img id="page2cloud" class="cloudimage " src="/src/img/textcloud1.png" alt="">
+                    </div>
+            </section>
+            <!-- ---------------------------------------------------------------------------------- -->
+            <section id="page3">
+                <div id="bigSquare">
+                    <div id="TopText">
+                        <img class="titeltoptext" src="src/img/titel.png" alt="">
+                    </div>
+                    <div id="BotButtons">
+                        <button onclick="selectDrank()" class="buttonstyle" id="LeftButton"><img
+                                src="src/img/ButtonLeft.png" alt=""></button>
+                        <button onclick="selectBank()" class="buttonstyle" id="RightButton"><img
+                                src="src/img/ButtonRight.png" alt=""></button>
+                    </div>
+                </div>
+
+            </section>
+            <!-- ---------------------------------------------------------------------------------- -->
+            <section class="drankpath" id="page5_Before">
+                <button onclick="skip()" id="cloudbutton1">
+                    <div class="cloud">
+                        <p id="cloudText23" class="cloudcontent"></p>
+                        <img id="page2cloud" class="cloudimage " src="/src/img/textcloud3.png" alt="">
+                    </div>
+                </button>
+            </section>
+            <!-- ---------------------------------------------------------------------------------- -->
+            <section class="drankpath" id="page4">
+                <button onclick="skip()" id="cloudbutton1">
+                    <div class="cloud">
+                        <p id="cloudText3" class="cloudcontent"></p>
+                        <img id="page2cloud" class="cloudimage " src="/src/img/textcloud2.png" alt="">
+                    </div>
+                </button>
+            </section>
+            <!-- ---------------------------------------------------------------------------------- -->
+            <section class="bankpath" id="page5">
+                <button onclick="skip()" id="cloudbutton1">
+                    <div class="cloud">
+                        <p id="cloudText4" class="cloudcontent"></p>
+                        <img id="page2cloud" class="cloudimage " src="/src/img/textcloud3.png" alt="">
+                    </div>
+                </button>
+            </section>
+            <!-- ---------------------------------------------------------------------------------- -->
+            <section class="bankpath" id="page6">
+                <button onclick="skip()" id="cloudbutton1">
+                    <div class="cloud">
+                        <p id="cloudText5" class="cloudcontent"></p>
+                        <img id="page2cloud" class="cloudimage " src="/src/img/textcloud4.png" alt="">
+                    </div>
+                </button>
+            </section>
+            <!-- ---------------------------------------------------------------------------------- -->
+            <section class="drankpath" id="page7">
+                <button onclick="skip()" id="cloudbutton1">
+                    <div class="cloud">
+                        <p id="cloudText6" class="cloudcontent"></p>
+                        <img id="page2cloud" class="cloudimage " src="/src/img/textcloud1.png" alt="">
+                    </div>
+                </button>
+            </section>
+            <!-- ---------------------------------------------------------------------------------- -->
+            <section class="drankpath" id="page8">
+                <button onclick="skip()" id="cloudbutton1">
+                    <div class="cloud">
+                        <p id="cloudText7" class="cloudcontent"></p>
+                        <img id="page2cloud" class="cloudimage " src="/src/img/textcloud1.png" alt="">
+                    </div>
+                </button>
+            </section>
+            <!-- ---------------------------------------------------------------------------------- -->
+            <section class="drankpath" id="page9">
+                <button onclick="skip()" id="cloudbutton1">
+                    <div class="cloud">
+                        <p id="cloudText8" class="cloudcontent"></p>
+                        <img id="page2cloud" class="cloudimage " src="/src/img/textcloud4.png" alt="">
+                    </div>
+                </button>
+            </section>
+            <!-- ---------------------------------------------------------------------------------- -->
+            <section class="bankpath" id="page10">
+                <a href="credits.html">
+                    <img class="imageCredits" src="src/img/CreditsWhite.png" alt="">
+                </a>
+            </section>
+            <!-- ---------------------------------------------------------------------------------- -->
+            <section class="drankpath" id="page11">
+                <a href="credits.html">
+                    <img class="imageCredits" src="src/img/CreditsWhite.png" alt="">
+                </a>
+            </section>
+        </section>
+    </section>
+    <script src="src/scripts/scripts.js"></script>
+    <script src="src/scripts/Cloud.js"></script>
+</body>
+
+</html>
